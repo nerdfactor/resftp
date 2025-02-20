@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+    eu.nerdfactor.springutils.PropertyLogging: INFO
+
+spring:
+  application:
+    name: ^project.name^
+
+app:
+  version: ^project.version^
